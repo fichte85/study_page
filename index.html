@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding | AI와 함께하는 직관적 개발</title>
+    <meta name="description" content="자연어와 직관으로 개발하는 새로운 패러다임, 바이브 코딩을 소개합니다.">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark text-white">
+    <div id="app">
+        <!-- Background Decor -->
+        <div class="blob-container" aria-hidden="true">
+            <div class="blob-bg"></div>
+            <div class="blob-bg blob-2"></div>
+        </div>
+
+        <nav class="glass-nav" role="navigation" aria-label="메인 메뉴">
+            <div class="logo">Vibe Coding.</div>
+            <ul class="nav-links">
+                <li><a href="#about">소개</a></li>
+                <li><a href="#features">특징</a></li>
+                <li><a href="#action">시작하기</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="Vibe Coding">Vibe Coding</h1>
+                <h2>코딩, 이제 직관으로 완성하다</h2>
+                <p>인공지능과 함께 리듬을 타듯 개발하세요. <br> 한 줄의 코드 대신, 하나의 아이디어에 집중하는 시간.</p>
+                <a href="#about" class="cta-btn">바이브 느껴보기</a>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-code">
+                    <pre><code><span class="keyword">function</span> <span class="func">createMagic</span>() {
+  <span class="keyword">return</span> <span class="string">"Vibe Coding"</span>;
+}</code></pre>
+                </div>
+                <div class="floating-prompt glass-panel">
+                    <p>"사용자를 사로잡는 마법 같은 UI를 만들어줘"</p>
+                    <div class="typing-indicator">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <h2 class="section-title">What is Vibe Coding?</h2>
+                <div class="about-grid">
+                    <div class="about-card glass-panel fade-up">
+                        <div class="icon">✨</div>
+                        <h3>자연어 기반 개발</h3>
+                        <p>복잡한 프로그래밍 언어의 문법에 얽매이지 않고, 우리가 일상적으로 사용하는 언어로 의도를 전달하여 소프트웨어를 구축합니다.</p>
+                    </div>
+                    <div class="about-card glass-panel fade-up" style="transition-delay: 100ms;">
+                        <div class="icon">🤝</div>
+                        <h3>AI와의 페어 프로그래밍</h3>
+                        <p>개발자는 큰 그림과 아키텍처를 설계하고, AI는 그에 맞는 코드를 빠르게 생성하여 생산성을 극대화합니다.</p>
+                    </div>
+                    <div class="about-card glass-panel fade-up" style="transition-delay: 200ms;">
+                        <div class="icon">🌊</div>
+                        <h3>흐름(Flow) 유지</h3>
+                        <p>디버깅과 타이핑에 소모되는 시간을 줄이고, 창의적인 문제 해결에 집중하여 끊김 없는 몰입 상태를 경험하세요.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="section-container">
+                <div class="feature-split">
+                    <div class="feature-text">
+                        <h2 class="section-title">코드 대신,<br>아키텍처에 집중하세요.</h2>
+                        <p>바이브 코딩은 개발자의 역할을 타이피스트에서 오케스트라 지휘자로 바꿉니다. 시스템의 구조, 사용자 경험, 비즈니스 로직의 핵심에 집중할 수 있는 자유를 제공합니다.
+                        </p>
+                        <ul class="feature-list">
+                            <li><span>🚀</span> 10배 빠른 프로토타이핑</li>
+                            <li><span>🎨</span> 디자인과 로직의 완벽한 조화</li>
+                            <li><span>🧠</span> 더 높은 차원의 추상화</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual glass-panel">
+                        <div class="mock-editor">
+                            <div class="editor-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="editor-body">
+                                <div class="line"><span class="comment">// USER: 모던하고 부드러운 애니메이션이 들어간 로그인 폼 만들어줘</span>
+                                </div>
+                                <div class="line"><span class="comment">// AI: 네, 글래스모피즘 스타일과 60fps 애니메이션을 적용한 폼을
+                                        생성합니다.</span></div>
+                                <div class="line"><span class="keyword">export const</span> <span
+                                        class="func">LoginForm</span> = () => {</div>
+                                <div class="line indent"> <span class="keyword">return</span> (</div>
+                                <div class="line indent2"> <span class="tag">&lt;div <span
+                                            class="attr">class</span>=<span class="string">"glass-effect
+                                            fade-in"</span>&gt;</span></div>
+                                <div class="line indent3"> ...</div>
+                                <div class="line indent2"> <span class="tag">&lt;/div&gt;</span></div>
+                                <div class="line indent"> );</div>
+                                <div class="line">};</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="action" class="cta-section">
+            <div class="glass-panel text-center cta-box">
+                <h2>지금 바로 당신의 바이브를 코드로 만드세요</h2>
+                <p>생각만 하던 아이디어를 눈앞의 현실로 바꿀 시간입니다.</p>
+                <button class="primary-btn">가이드 시작하기</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Vibe Coding. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
